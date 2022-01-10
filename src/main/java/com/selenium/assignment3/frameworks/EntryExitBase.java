@@ -14,7 +14,7 @@ public class EntryExitBase {
         @BeforeMethod
         public void setUP() throws InterruptedException {
 
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\Binary\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Binaries\\chromedriver.exe");
             driverx = new ChromeDriver();
             driverx.manage().window().maximize();
             driverx.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
